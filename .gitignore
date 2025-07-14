@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Assets (optional)
+*.wav~
+*.png~
+
+# System
+.DS_Store
+Thumbs.db
+
+# Packaging
+*.tar.xz

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Launcher
+cd "$(dirname "$0")/../share/rampart"
+python3 main.py
