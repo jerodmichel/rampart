@@ -16,6 +16,12 @@ A strategic hybrid of chess and cardplay where players battle across a rampart b
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 ```
 
+## Screenshots
+
+| Gameplay | Casting Move | Multiplayer |
+|----------|--------------|-------------|
+| <img src="assets/screenshots/screen2.png" width="300"> | <img src="assets/screenshots/screen1.png" width="300"> | <img src="assets/screenshots/screen3.png" width="300"> |
+
 ## Features
 | Category                 | Highlights                                                                 |
 |--------------------------|----------------------------------------------------------------------------|
