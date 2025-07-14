@@ -20,7 +20,7 @@ A strategic hybrid of chess and cardplay where players battle across a rampart b
 
 | Gameplay | Casting Move | Multiplayer |
 |----------|--------------|-------------|
-| <img src="assets/screenshots/screen2.png" width="300"> | <img src="assets/screenshots/screen1.png" width="300"> | <img src="assets/screenshots/screen3.png" width="300"> |
+| <img src="share/rampart/assets/images/screenshots/screen2.png" width="300"> | <img src="share/rampart/assets/images/screenshots/screen1.png" width="300"> | <img src="share/rampart/assets/images/screenshots/screen3.png" width="300"> |
 
 ## Features
 | Category                 | Highlights                                                                 |
@@ -98,3 +98,6 @@ Developed by **Jerod Michel** using:
 - <img src="https://www.pygame.org/favicon.ico" width=16> Pygame
 - <img src="https://www.gnu.org/graphics/gplv3-88x31.png" width=16> GPLv3
 - <img src="https://www.python.org/static/favicon.ico" width=16> Python 3.8+
+
+<!-- CacheBuster 1752523062 -->
+<!-- LastUpdated: 2025-07-14 12:58:05 -->
