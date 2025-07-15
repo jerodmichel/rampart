@@ -18,15 +18,15 @@ A strategic hybrid of chess and cardplay where players battle across a rampart b
 
 ## Screenshots
 
-| Gameplay | Casting Move | Multiplayer |
+| Gameplay | Cast Move | Multiplayer |
 |----------|--------------|-------------|
 | <img src="share/rampart/assets/images/screenshots/screen2.png" width="300"> | <img src="share/rampart/assets/images/screenshots/screen1.png" width="300"> | <img src="share/rampart/assets/images/screenshots/screen3.png" width="300"> |
 
 ## Features
 | Category                 | Highlights                                                                 |
 |--------------------------|----------------------------------------------------------------------------|
-| **Hybrid Gameplay**      | Chess pieces + deck-building • Casting with card combinations              |
-| **Realtime Multiplayer** | Firebase-powered battles • 4-digit PIN matchmaking                         |
+| **Hybrid Gameplay**      | Chess pieces + cardplay • Casting with card combinations                   |
+| **Realtime Multiplayer** | Firebase-powered battles • 4-digit PIN to join game                        |
 | **Customization**        | Switchable themes (`T`) • Alternate piece styles (`Y`)                     |
 | **Tactical Depth**       | Lightning animations • Graveyard resurrection mechanics                    |
 
@@ -36,8 +36,11 @@ Complete strategy guide including card combinations and special moves.
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/rampart-chess.git
-cd rampart-chess
+# Clone using your actual GitHub username
+git clone https://github.com/jerodmichel/rampart.git
+cd rampart
+
+# Install Python dependencies
 pip install -r requirements.txt
 ```
 
@@ -53,9 +56,9 @@ python3 share/rampart/main.py
 |-----------|---------------------------------|----------------|
 | `H`       | Host game                       | Main menu      |
 | `J`       | Join game                       | Main menu      | 
-| `F`       | Flip board                      | In-game        |
-| `T`/`Y`   | Switch theme/piece style        | Any time       |
-| `R`       | Request rematch                 | Post-game      |
+| `F`       | Flip board                      | Main menu      |
+| `T`/`Y`   | Switch theme/piece style        | Main menu      |
+| `R`       | Request rematch                 | Multiplayer    |
 | `C`       | Open chat                       | Multiplayer    |
 
 ## Architecture
