@@ -16,6 +16,14 @@ A strategic hybrid of chess and cardplay where players battle across a rampart b
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 ```
 
+## Video Demo
+
+Watch a full game of Rampart in action:
+
+[![Rampart Full Gameplay](https://img.youtube.com/vi/TWDltWxu2pY/0.jpg)](https://www.youtube.com/watch?v=TWDltWxu2pY)
+
+*Click the image above to watch the full gameplay video on YouTube*
+
 ## Screenshots
 
 | Gameplay | Cast Move | Multiplayer |
