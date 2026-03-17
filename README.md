@@ -7,7 +7,6 @@
 A strategic hybrid of chess and cardplay where players battle across a rampart barrier using tactical movement and card-based casting.
 
 ```text
-
 ██████╗░░█████╗░███╗░░░███╗██████╗░░█████╗░██████╗░████████╗
 ██╔══██╗██╔══██╗████╗░████║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝
 ██████╔╝███████║██╔████╔██║██████╔╝███████║██████╔╝░░░██║░░░
@@ -15,6 +14,12 @@ A strategic hybrid of chess and cardplay where players battle across a rampart b
 ██║░░██║██║░░██║██║░╚═╝░██║██║░░░░░██║░░██║██║░░██║░░░██║░░░
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 ```
+
+## 🎮 Download & Play (Windows)
+No installation required! To play immediately:
+1. Go to the **[Releases](../../releases)** tab on the right side of this page.
+2. Download the latest `Rampart_Windows_v1.0.zip`.
+3. Extract the folder to your PC and double-click **`Rampart.exe`** (the launcher) to play!
 
 ## Video Demo
 
@@ -33,75 +38,71 @@ Watch a full game of Rampart in action:
 ## Features
 | Category                 | Highlights                                                                 |
 |--------------------------|----------------------------------------------------------------------------|
-| **Hybrid Gameplay**      | Chess pieces + cardplay • Casting with card combinations                   |
+| **Hybrid Gameplay** | Chess pieces + cardplay • Casting with card combinations                   |
+| **Single Player AI** | Custom Negamax AI engine for local offline play                            |
 | **Realtime Multiplayer** | Firebase-powered battles • 4-digit PIN to join game                        |
-| **Customization**        | Switchable themes (`T`) • Alternate piece styles (`Y`)                     |
-| **Tactical Depth**       | Lightning animations • Graveyard resurrection mechanics                    |
+| **Customization** | Switchable themes (`T`) • Alternate piece styles (`Y`)                     |
+| **Tactical Depth** | Lightning animations • Graveyard resurrection mechanics                    |
 
 ## Official Rules
 [![Rulebook PDF](https://img.shields.io/badge/Download-Rulebook-blue)](https://osf.io/a3cfz)  
 Complete strategy guide including card combinations and special moves.
 
-## Installation
+---
+
+## Build from Source (For Developers)
+If you want to view the code, run from the Python source, or contribute:
+
 ```bash
 # Clone using your actual GitHub username
-git clone https://github.com/jerodmichel/rampart.git
+git clone [https://github.com/jerodmichel/rampart.git](https://github.com/jerodmichel/rampart.git)
 cd rampart
 
 # Install Python dependencies
 pip install -r requirements.txt
-```
 
-## Quick Start
-```bash
-python3 share/rampart/main.py
+# Run the launcher
+python launcher.py
 ```
-- Press `H` to host or `J` to join
-- No configuration needed - uses public demo server
 
 ## Controls
 | Key       | Action                          | Mode           |
 |-----------|---------------------------------|----------------|
-| `H`       | Host game                       | Main menu      |
-| `J`       | Join game                       | Main menu      | 
-| `F`       | Flip board                      | Main menu      |
-| `T`/`Y`   | Switch theme/piece style        | Main menu      |
+| `H` / `J` | Host / Join game                | Main menu      | 
+| `F`       | Flip board perspective          | Global         |
+| `T` / `Y` | Switch theme / piece style      | Global         |
+| `S` / `L` | Save / Load Game                | Host Only      |
+| `<-` / `->`| Step back/forward in history   | Global         |
 | `R`       | Request rematch                 | Multiplayer    |
 | `C`       | Open chat                       | Multiplayer    |
 
 ## Architecture
 ```mermaid
 flowchart LR
-  A[main.py] --> B[Game Loop]
+  A[launcher.py] --> B[Game Loop]
   B --> C[Pygame Rendering]
   B --> D[Firebase Sync]
   B --> E[Board Logic]
+  B --> F[Negamax AI Engine]
 ```
 
 ## Roadmap
 - [x] Multiplayer core (v1.0)
 - [x] Card casting system (v1.0)
-- [ ] AI opponent (v1.1)
+- [x] AI opponent (v1.1)
+- [ ] Native Linux Release (v1.1)
 - [ ] Mobile touch support (v1.2)
 - [ ] Tournament mode (v1.3)
 
 ## License
 ```text
 Rampart - A strategic hybrid of chess and cardplay
-Copyright (C) 2024 Jerod Michel
+Copyright (C) 2024-2026 Jerod Michel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
 ## Credits
@@ -109,6 +110,3 @@ Developed by **Jerod Michel** using:
 - <img src="https://www.pygame.org/favicon.ico" width=16> Pygame
 - <img src="https://www.gnu.org/graphics/gplv3-88x31.png" width=16> GPLv3
 - <img src="https://www.python.org/static/favicon.ico" width=16> Python 3.8+
-
-<!-- CacheBuster 1752523062 -->
-<!-- LastUpdated: 2025-07-14 12:58:05 -->
