@@ -13,6 +13,10 @@ A strategic hybrid of chess and cardplay where players battle across a rampart b
     ██║░░██║██║░░██║██║░╚═╝░██║██║░░░░░██║░░██║██║░░██║░░░██║░░░
     ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 
+<p align="center">
+  <img src="screenshots/rampart_bg.png" width="600">
+</p>
+
 ## 🎮 Download & Play (Windows)
 No installation required! To play immediately:
 1. Go to the **[Releases](../../releases)** tab on the right side of this page.
@@ -21,9 +25,13 @@ No installation required! To play immediately:
 
 ## Video Demo
 
-Watch a full game of Rampart in action:
+Watch full games of Rampart:
 
 [![Rampart Full Gameplay](https://img.youtube.com/vi/TWDltWxu2pY/0.jpg)](https://www.youtube.com/watch?v=TWDltWxu2pY)
+
+[![Rampart Full Gameplay](https://img.youtube.com/vi/TWDltWxu2pY/0.jpg)](https://www.youtube.com/watch?v=Klb_kVEQBv4)
+
+
 
 *Click the image above to watch the full gameplay video on YouTube*
 
@@ -32,6 +40,8 @@ Watch a full game of Rampart in action:
 | Gameplay | Cast Move | Multiplayer |
 |----------|--------------|-------------|
 | <img src="screenshots/screen2.png" width="300"> | <img src="screenshots/screen1.png" width="300"> | <img src="screenshots/screen3.png" width="300"> |
+
+| <img src="screenshots/screen4.png" width="300"> | <img src="screenshots/screen5.png" width="300"> | <img src="screenshots/screen6.png" width="300"> |
 
 ## Features
 | Category                 | Highlights                                                                 |
@@ -85,7 +95,7 @@ If you want to view the code, run from the Python source, or contribute:
 - [x] Multiplayer core (v1.0)
 - [x] Card casting system (v1.0)
 - [x] AI opponent (v1.1)
-- [ ] Native Linux Release (v1.1)
+- [x] Native Linux Release (v1.1)
 - [ ] Mobile touch support (v1.2)
 - [ ] Tournament mode (v1.3)
 
