@@ -475,12 +475,12 @@ class Main:
         screen.blit(arrow_font.render(">", True, get_color(self.btn_next)), (self.btn_next.x + 12, self.btn_next.y + 6))
         
         # --- AI LEVEL INDICATOR HERE ---
-        diff_str = f"AI: {self.game.ai_difficulty.upper()}"
+        diff_str = f"{self.game.ai_difficulty.upper()}"
         # green for easy, orange for medium
         diff_color = (0, 255, 0) if self.game.ai_difficulty == "Easy" else (255, 165, 0) 
         diff_surf = arrow_font.render(diff_str, True, diff_color)
         
-        self.screen.blit(diff_surf, (WIDTH + 60, base_y + 70))
+        self.screen.blit(diff_surf, (15, base_y + 70))
         
         
 # █▀▀ █▀█ █▀▄▀█ █▀▄▀█ ▄▀█ █▄░█ █▀▄   █▀▄▀█ █▀▀ █▄░█ █░█

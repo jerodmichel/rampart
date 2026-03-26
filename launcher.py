@@ -196,7 +196,7 @@ class Launcher:
         pygame.init()
         self.screen = pygame.display.set_mode((self.width, self.height))
         pygame.display.set_caption("Rampart -- Main Menu")
-        self.font = pygame.font.Font("fonts/cinzel/Cinzel-Black.ttf", 28)
+        self.font = pygame.font.Font("fonts/cinzel/Cinzel-Black.ttf", 26)
         self.about_font = pygame.font.SysFont("timesnewroman", 22) # <-- ADD THIS LINE
         
         # reload image

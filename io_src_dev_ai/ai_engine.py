@@ -302,7 +302,9 @@ class BitboardGameState:
         
         # wrap in engine objects
         for (src, tgt, m_type, cards) in raw_casts:
-            moves.append(EngineMove(src, tgt, 'raider', self.current_player, m_type, cards))
+            mv = EngineMove(src, tgt, 'raider', self.current_player, m_type, cards)
+            if self.attack_gen.ai_self_in_check(self.bitboard, mv, self.current_player):
+                moves.append(mv)
             
         return moves
 
